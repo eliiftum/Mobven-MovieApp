@@ -14,9 +14,9 @@ struct TabbarView: View {
                 .tabItem {
                     Image(.homepage)
                 }
-            MovieDetailView()
+            TicketsView()
                 .tabItem {
-                    Image(.detail)
+                    Image(.tickets)
                 }
             WatchListView()
                 .tabItem {
