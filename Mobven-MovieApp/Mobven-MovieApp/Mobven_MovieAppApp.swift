@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@main
 struct Mobven_MovieAppApp: App {
     var body: some Scene {
         WindowGroup {
