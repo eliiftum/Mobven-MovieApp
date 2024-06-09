@@ -9,7 +9,7 @@ import Foundation
 public enum API {
    
     static func prepareUrl(withPath path: String) -> URL {
-        guard let baseURL = Bundle.main.infoForKey("BASE_URL") else {
+        guard let baseURL = URL(string: "https://api.themoviedb.org/") else {
             fatalError("Could not create BaseURL")
 
         }
@@ -27,3 +27,4 @@ public enum API {
         return headers
     }
 }
+

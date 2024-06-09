@@ -8,6 +8,7 @@
 import SwiftUI
 import UIKit
 
+@main
 final class AppDelegate: NSObject, UIApplicationDelegate {
     
     func application(
