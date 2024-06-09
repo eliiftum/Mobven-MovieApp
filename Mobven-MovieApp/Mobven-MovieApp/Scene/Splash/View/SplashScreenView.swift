@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SplashScreenView: View {
+    @EnvironmentObject var coordinator: Coordinator<FlowRouter>
     var body: some View {
         ZStack {
             LinearGradient(
@@ -19,10 +20,17 @@ struct SplashScreenView: View {
             
             Image(.splashScreenIcon)
             
+                .onAppear(perform: {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                    coordinator.show(.tabbar)
+                }
+            })
         }
+        
     }
 }
 
 #Preview {
-    SplashScreenView()
+    @State var env = Coordinator<FlowRouter>()
+    return SplashScreenView().environmentObject(env)
 }

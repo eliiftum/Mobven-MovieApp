@@ -9,6 +9,7 @@ import UIKit
 
 public enum FlowRouter: NavigationRouter {
     case splash
+    case tabbar
     case homepage
     case movieDetails
     case castAndCrew
@@ -23,6 +24,16 @@ public enum FlowRouter: NavigationRouter {
     
     @ViewBuilder
     public func view() -> some View {
-        
+        switch self {
+        case .splash:
+            SplashScreenView()
+        case .tabbar:
+            TabbarView()
+        case .homepage:
+            HomepageView()
+        default:
+            Text(verbatim: "There is nothing")
+                .foregroundStyle(.blue)
+        }
     }
 }
