@@ -17,6 +17,18 @@
 		DDE7854F2C15E80F00EBB3E8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7854E2C15E80F00EBB3E8 /* Coordinator.swift */; };
 		DDE785512C15E82E00EBB3E8 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE785502C15E82E00EBB3E8 /* NavigationRouter.swift */; };
 		DDE785532C15E85500EBB3E8 /* NavigationTransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE785522C15E85500EBB3E8 /* NavigationTransitionStyle.swift */; };
+		DDE785552C15E9D100EBB3E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE785542C15E9D100EBB3E8 /* AppDelegate.swift */; };
+		DDE785572C15E9EB00EBB3E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE785562C15E9EB00EBB3E8 /* SceneDelegate.swift */; };
+		DDE785592C15EA2C00EBB3E8 /* FlowRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE785582C15EA2C00EBB3E8 /* FlowRouter.swift */; };
+		DDE7855B2C15EB6300EBB3E8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7855A2C15EB6300EBB3E8 /* API.swift */; };
+		DDE7855F2C15EBAB00EBB3E8 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7855E2C15EBAB00EBB3E8 /* Response.swift */; };
+		DDE785612C15EBBF00EBB3E8 /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE785602C15EBBF00EBB3E8 /* RequestMethod.swift */; };
+		DDE785632C15EBD400EBB3E8 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE785622C15EBD400EBB3E8 /* ContentType.swift */; };
+		DDE785652C15EBFD00EBB3E8 /* Networkable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE785642C15EBFD00EBB3E8 /* Networkable+Extension.swift */; };
+		DDE785672C15EC4F00EBB3E8 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE785662C15EC4F00EBB3E8 /* Networkable.swift */; };
+		DDE7856A2C15EC8000EBB3E8 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE785692C15EC8000EBB3E8 /* URL+Extension.swift */; };
+		DDE7856C2C15EC9A00EBB3E8 /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7856B2C15EC9A00EBB3E8 /* NSError.swift */; };
+		DDE7856E2C15ECBA00EBB3E8 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7856D2C15ECBA00EBB3E8 /* Bundle+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +62,18 @@
 		DDE7854E2C15E80F00EBB3E8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		DDE785502C15E82E00EBB3E8 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
 		DDE785522C15E85500EBB3E8 /* NavigationTransitionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTransitionStyle.swift; sourceTree = "<group>"; };
+		DDE785542C15E9D100EBB3E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDE785562C15E9EB00EBB3E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDE785582C15EA2C00EBB3E8 /* FlowRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowRouter.swift; sourceTree = "<group>"; };
+		DDE7855A2C15EB6300EBB3E8 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		DDE7855E2C15EBAB00EBB3E8 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		DDE785602C15EBBF00EBB3E8 /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		DDE785622C15EBD400EBB3E8 /* ContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
+		DDE785642C15EBFD00EBB3E8 /* Networkable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Networkable+Extension.swift"; sourceTree = "<group>"; };
+		DDE785662C15EC4F00EBB3E8 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
+		DDE785692C15EC8000EBB3E8 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		DDE7856B2C15EC9A00EBB3E8 /* NSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSError.swift; sourceTree = "<group>"; };
+		DDE7856D2C15ECBA00EBB3E8 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +183,9 @@
 		DDE785482C15E74500EBB3E8 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				DDE7855D2C15EB8F00EBB3E8 /* Networkable */,
+				DDE7855C2C15EB8700EBB3E8 /* Base */,
+				DDE7855A2C15EB6300EBB3E8 /* API.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -166,6 +193,8 @@
 		DDE785492C15E77500EBB3E8 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
+				DDE785542C15E9D100EBB3E8 /* AppDelegate.swift */,
+				DDE785562C15E9EB00EBB3E8 /* SceneDelegate.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -173,6 +202,7 @@
 		DDE7854A2C15E78300EBB3E8 /* Routers */ = {
 			isa = PBXGroup;
 			children = (
+				DDE785582C15EA2C00EBB3E8 /* FlowRouter.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -180,6 +210,7 @@
 		DDE7854B2C15E79300EBB3E8 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DDE785682C15EC6700EBB3E8 /* Extensions */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -190,6 +221,35 @@
 				DDE785202C15E6E500EBB3E8 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DDE7855C2C15EB8700EBB3E8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7855E2C15EBAB00EBB3E8 /* Response.swift */,
+				DDE785602C15EBBF00EBB3E8 /* RequestMethod.swift */,
+				DDE785622C15EBD400EBB3E8 /* ContentType.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DDE7855D2C15EB8F00EBB3E8 /* Networkable */ = {
+			isa = PBXGroup;
+			children = (
+				DDE785642C15EBFD00EBB3E8 /* Networkable+Extension.swift */,
+				DDE785662C15EC4F00EBB3E8 /* Networkable.swift */,
+			);
+			path = Networkable;
+			sourceTree = "<group>";
+		};
+		DDE785682C15EC6700EBB3E8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DDE785692C15EC8000EBB3E8 /* URL+Extension.swift */,
+				DDE7856B2C15EC9A00EBB3E8 /* NSError.swift */,
+				DDE7856D2C15ECBA00EBB3E8 /* Bundle+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,10 +382,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE785592C15EA2C00EBB3E8 /* FlowRouter.swift in Sources */,
+				DDE7856E2C15ECBA00EBB3E8 /* Bundle+Extension.swift in Sources */,
+				DDE785552C15E9D100EBB3E8 /* AppDelegate.swift in Sources */,
+				DDE785572C15E9EB00EBB3E8 /* SceneDelegate.swift in Sources */,
+				DDE7856C2C15EC9A00EBB3E8 /* NSError.swift in Sources */,
 				DDE7851F2C15E6E500EBB3E8 /* ContentView.swift in Sources */,
+				DDE7855F2C15EBAB00EBB3E8 /* Response.swift in Sources */,
+				DDE785652C15EBFD00EBB3E8 /* Networkable+Extension.swift in Sources */,
+				DDE785632C15EBD400EBB3E8 /* ContentType.swift in Sources */,
+				DDE785612C15EBBF00EBB3E8 /* RequestMethod.swift in Sources */,
+				DDE7856A2C15EC8000EBB3E8 /* URL+Extension.swift in Sources */,
 				DDE7851D2C15E6E500EBB3E8 /* Mobven_MovieAppApp.swift in Sources */,
 				DDE785512C15E82E00EBB3E8 /* NavigationRouter.swift in Sources */,
+				DDE785672C15EC4F00EBB3E8 /* Networkable.swift in Sources */,
 				DDE7854F2C15E80F00EBB3E8 /* Coordinator.swift in Sources */,
+				DDE7855B2C15EB6300EBB3E8 /* API.swift in Sources */,
 				DDE785532C15E85500EBB3E8 /* NavigationTransitionStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
