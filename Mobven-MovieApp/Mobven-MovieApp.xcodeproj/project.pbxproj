@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD28EEF02C15F0D300498AC6 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28EEEF2C15F0D300498AC6 /* SplashScreenView.swift */; };
 		DDE7851D2C15E6E500EBB3E8 /* Mobven_MovieAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7851C2C15E6E500EBB3E8 /* Mobven_MovieAppApp.swift */; };
 		DDE7851F2C15E6E500EBB3E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7851E2C15E6E500EBB3E8 /* ContentView.swift */; };
 		DDE785212C15E6E500EBB3E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE785202C15E6E500EBB3E8 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD28EEEF2C15F0D300498AC6 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		DDE785192C15E6E500EBB3E8 /* Mobven-MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobven-MovieApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE7851C2C15E6E500EBB3E8 /* Mobven_MovieAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobven_MovieAppApp.swift; sourceTree = "<group>"; };
 		DDE7851E2C15E6E500EBB3E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD28EEED2C15F0B800498AC6 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				DD28EEEE2C15F0BF00498AC6 /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		DD28EEEE2C15F0BF00498AC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD28EEEF2C15F0D300498AC6 /* SplashScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DDE785102C15E6E500EBB3E8 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +184,7 @@
 		DDE785462C15E73700EBB3E8 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				DD28EEED2C15F0B800498AC6 /* Splash */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -393,6 +412,7 @@
 				DDE785632C15EBD400EBB3E8 /* ContentType.swift in Sources */,
 				DDE785612C15EBBF00EBB3E8 /* RequestMethod.swift in Sources */,
 				DDE7856A2C15EC8000EBB3E8 /* URL+Extension.swift in Sources */,
+				DD28EEF02C15F0D300498AC6 /* SplashScreenView.swift in Sources */,
 				DDE7851D2C15E6E500EBB3E8 /* Mobven_MovieAppApp.swift in Sources */,
 				DDE785512C15E82E00EBB3E8 /* NavigationRouter.swift in Sources */,
 				DDE785672C15EC4F00EBB3E8 /* Networkable.swift in Sources */,
